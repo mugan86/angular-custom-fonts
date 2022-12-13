@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'LaBelleAurore';
+    src: url('./assets/fonts/LaBelleAurore-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'BioRhyme';
+    src: url('./assets/fonts/BioRhyme-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'YujiMai';
+    src: url('./assets/fonts/YujiMai-Regular.ttf');
+}
+
+h1 {
+    font-family: 'LaBelleAurore';
+    border-bottom: 3.5px dashed rgb(50, 58, 214);
+    color: red
+}
+
+h2 {
+    color: green;
+    font-family: 'BioRhyme';
+    font-weight: 500;
+}
+
+p {
+    font-family: 'YujiMai';
+}
